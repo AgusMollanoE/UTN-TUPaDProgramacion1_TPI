@@ -54,7 +54,7 @@ def menu_principal(inventario):
                 print("|        CONSULTA DE STOCK          |")
                 print("-------------------------------------")
                 # FUNCIONES 
-                
+                funciones.consulta_stock(inventario)
                 pausar()
                 limpiar_pantalla()
 
@@ -63,7 +63,7 @@ def menu_principal(inventario):
                 print("|       REPORTE DE AGOTADOS         |")
                 print("-------------------------------------")
                 # FUNCIONES
-                
+                funciones.reporte_agotados(inventario)
                 pausar()
                 limpiar_pantalla()
                 
@@ -72,14 +72,14 @@ def menu_principal(inventario):
                 print("|     ALTA DE PRODUCTO NUEVO        |")
                 print("-------------------------------------")
                 # FUNCIONES
-                
+                funciones.alta_nuevo_producto(inventario)
                 pausar()
                 limpiar_pantalla()
                 
             elif opcion == 6:
-                print("-------------------------------------")
-                print("|      ACTUALIZACIÓN DE STOCK       |")
-                print("-------------------------------------")
+                print("--------------------------------------------")
+                print("| ACTUALIZACIÓN DE STOCK (VENTA / INGRESO) |")
+                print("--------------------------------------------")
                 # FUNCIONES
                 
                 pausar()
